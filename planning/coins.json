@@ -10,30 +10,33 @@
 {
   "name":"Lydian Lion Coin",
   "time":"700-550 BCE",
-  "region":"Old Greece/Turkey",
+  "region":"Sardis",
   "description":"First recorded time in history, when people started to use gold and silver in coins.
   The first coinage was made from electrum, an alloy of silver and gold. For their material and minting value they were recorder by
   , and collected by ancient Greeks.",
   "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ae/BMC_06.jpg"
 },
 {
-  "name":"",
-  "time":"",
-  "region":"",
-  "description":"",
-  "image_url":""
+  "name":"Gold gulden",
+  "time":"1252-1307",
+  "region":"Republic of Florence",
+  "description":"Minted in the rich Italian trade city of Florence from gold.
+  Minting it was made possible by the large amount of gold the crusaders brought back to Italy.
+  Became a major coin for trading in many countries, was used all the way through the Middle Ages.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Fiorino_1347.jpg/440px-Fiorino_1347.jpg"
 },
 {
-  "name":"",
-  "time":"",
-  "region":"",
-  "description":"",
-  "image_url":""
+  "name":"Maria Theresa thaler",
+  "time":"1780",
+  "region":"Austria",
+  "description":"Minted in Günzburg as in modern day Bavaria. One of the most long lasting silver trade coins,
+  of any monetary history. The design and fineness added it a great popularity, also the fact Maria Theresa was quite popular at the time.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
 },
 {
-  "name":"",
-  "time":"",
-  "region":"",
-  "description":"",
+  "name":"Euro Coins",
+  "time":"2002 - ",
+  "region":"Europe",
+  "description":"They have a common reverse, portraying a map of Europe, but each country in the eurozone has its own design on the obverse, which means that each coin has a variety of different designs in circulation at once.",
   "image_url":""
 }]
