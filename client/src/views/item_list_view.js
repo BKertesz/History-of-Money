@@ -7,7 +7,7 @@ class ItemListView{
   }
 
   bindEvents(){
-    setupDataListener()
+    this.setupDataListener()
   }
 
   setupDataListener(){
