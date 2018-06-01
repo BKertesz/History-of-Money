@@ -12,7 +12,8 @@ class ItemListView{
 
   setupDataListener(){
     //Listening till the model publishes all data then populate the story
-    PubSub.subscribe('Items:all-data-ready',(evt)=>{this.populate(evt.details)})
+    PubSub.subscribe('Items:all-data-ready',(evt)=>{
+      this.populate(evt.detail)})
   }
 
   populate(items){
