@@ -1,50 +1,43 @@
 [{
-  "name":"Ancient Chinese Coinage",
+  "name":"Ancient Chinese Coins",
   "time":"770-476 BCE",
   "region":"China",
-  "description":"First ones were used in ceremonial exchanges, and were shaped after cowrie shells.
-  The later introduced metal coins weren't round, rather shaped like spades and knifes.
-  They were originally cast into molds, rather than being hammered or cut like European coins.",
+  "description":"First coins were used during ceremonial exchanges, and were shaped like cowrie shells. Metal coins introduced later weren't round, but were shaped like spades and knifes. They were originally cast into molds, rather than being hammered or cut like European coins.",
   "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Square_Shoulder_Spade.jpg/440px-Square_Shoulder_Spade.jpg"
 },
 {
   "name":"Lydian Lion Coin",
   "time":"700-550 BCE",
   "region":"Sardis",
-  "description":"First recorded time in history, when people started to use gold and silver in coins.
-  The first coinage was made from electrum, an alloy of silver and gold. For their material and minting value they were recorder by
-  , and collected by ancient Greeks.",
+  "description":"This was the first time in history when people started to use gold and silver in coins. The first coins were made from electrum, an alloy of silver and gold. For their material and minting value they were recorded and collected by ancient Greeks.",
   "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ae/BMC_06.jpg"
 },
 {
   "name":"Gold gulden",
   "time":"1252-1307",
   "region":"Republic of Florence",
-  "description":"Minted in the rich Italian trade city of Florence from gold.
-  Minting it was made possible by the large amount of gold the crusaders brought back to Italy.
-  Became a major coin for trading in many countries, was used all the way through the Middle Ages.",
+  "description":"Minted in the rich Italian trade city of Florence from gold. Minting was made possible by the large amount of gold the crusaders brought back to Italy. It was a major coin for trading in many countries and was used all the way through the Middle Ages.",
   "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Fiorino_1347.jpg/440px-Fiorino_1347.jpg"
 },
 {
   "name":"Maria Theresa thaler",
   "time":"1780",
   "region":"Austria",
-  "description":"Minted in Günzburg as in modern day Bavaria. One of the most long lasting silver trade coins,
-  of any monetary history. The design and fineness added it a great popularity, also the fact Maria Theresa was quite popular at the time.",
+  "description":"The Thaler was minted in Günzburg, now Bavaria. It was one of the most long lasting silver trade coins, of any monetary history. The design and fineness added to its great popularity, Maria Theresa was quite famous at the timem which helped too.",
   "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
 },
 {
   "name":"Euro Coins",
-  "time":"2002 - ",
+  "time":"1999",
   "region":"Europe",
-  "description":"They have a common reverse, portraying a map of Europe, but each country in the eurozone has its own design on the obverse, which means that each coin has a variety of different designs in circulation at once.",
+  "description":"Euro Coins have a common reverse, portraying a map of Europe, but each country in the eurozone has its own design on the other side. This means that each coin has a variety of different designs in circulation at once.",
   "image_url":""
 },
 {
   "name":"Polymer Notes",
   "time":"1998",
   "region":"Australia",
-  "description":"Polymer notes last 2.5 times longer than paper notes, and are more difficult to conterfeit. More than 25 countries currently use polymer notes and Australia were the first to use them in 1988. Polymer notes cost twice the amount to produce as paper notes.",
+  "description":"Polymer notes last 2.5 times longer than paper notes, and are more difficult to conterfeit. More than 25 countries currently use polymer notes and Australia were the first to use them in 1988. Polymer notes cost twice as much to produce as paper notes.",
   "image_url":""
 },
 {
@@ -72,7 +65,7 @@
   "name":"Barter",
   "time":"128000 BC to 3000 BC",
   "region":"Babylonia",
-  "description":"The first banks appeared in Babylonia(present day Iraq) with pagrons depositing grain then cattle, agricultural tools and precious metals",
+  "description":"The first banks appeared in Babylonia(present day Iraq) with patrons depositing grain then cattle, agricultural tools and precious metals",
   "image_url":"https://image.slidesharecdn.com/barteradvertising-tradefirst-150903125124-lva1-app6892/95/barter-advertising-trade-first-1-638.jpg?cb=1441284744"
 },
 {
@@ -86,10 +79,42 @@
   "name":"Digital Currency",
   "time":"2009",
   "region":"Japan, Global",
-  "description":"The latest development in money uses cryptography to seek to ensure trust and fungibility in a theoretically tamper-proof distributed ledger called a blockchain. While several digital currency systems where proposed since the 1980s,the first successful decentralized peer-to-peer cryptocurrency, bitcoin, was proposed in 2008 by an unknown author or authors under the pseudonym of Satoshi Nakamoto.The protocol proposed by Nakamoto solved what is known as the double-spending problem without the need of a trusted third-party.
-
-Since bitcoin's inception, thousands of other cryptocurrencies have been introduced,[67][68] many of which use the symbology of former metallic currencies, such as silver for Litecoin.",
+  "description":"The latest development in money uses cryptography to seek to ensure trust in a theoretically tamper-proof systen called a blockchain. These systems have been around since the 1980s, however the first successful and most famous cryptocurrency, bitcoin, was proposed in 2008 by an unknown person under the name of Satoshi Nakamoto. Since bitcoin's inception, thousands of other cryptocurrencies have been introduced.",
   "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
+},
+{
+  "name":"South Sea Bubble ",
+  "time":"1720",
+  "region":"",
+  "description":"The South Sea Company was a British company founded in 1711, created to reduce national debt. The company was also granted a monopoly to trade with South America. Company stock quickly rose greatly in value, peaking in 1720 before collapsing to almost its original price; this became known as the South Sea Bubble. In Great Britain, lots of people were ruined by the share collapse, and the national economy reduced as a result. The founders used insider trading, using their knowledge of national debt to make large profits from purchasing debt in advance.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/17/William_Hogarth_-_The_South_Sea_Scheme.png"
+},
+{
+  "name":"Tulip Mania",
+  "time":"1600",
+  "region":"Netherlands",
+  "description":"Tulip Mania was a period in The Netherlands when contract prices for some bulbs of the recently introduced tulip reached very high levels and then dramatically collapsed in February 1637. This is generally considered the first recorded speculative bubble.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/Tulipomania.jpg"
+},
+{
+  "name":" European debt crisis",
+  "time":"2018",
+  "region":"Europe",
+  "description":"The European debt crisis has been taking place in the EU since the end of 2009. Several countries (Greece, Portugal, Ireland, Spain and Cyprus) were unable to repay their government debt without the assistance of third parties like other Eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF). The crisis has had negative effects on the economy and labour market, with unemployment rates in Greece and Spain reaching 27%, and was blamed for poor economic growth, impacting all of the entire European Union",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Long-term_interest_rates_%28eurozone%29.png"
+},
+{
+  "name":"Global financial crisis of 2008",
+  "time":"2008",
+  "region":"",
+  "description":"The global financial crisis of 2008 is considered to be the worst financial crisis since the Great Depression, it was started by a mortgage crisis in the United States which caused an international banking crisis. Massive bail-outs of financial institutions and other policies were rolled out to try to prevent a possible collapse of the world financial system. The crisis has been followed by a global economic downturn, the Great Recession. ",
+  "image_url":"http://blogs.reuters.com/anatole-kaletsky/files/2014/08/ant-nyse-traders.jpg"
+},
+{
+  "name":"Wall Street Crash of 1929",
+  "time":"1929",
+  "region":"USA",
+  "description":"The Wall Street Crash of October 1929 was the most devastating stock market crash in the history of the United States, the crash signalled the beginning of a 12-year Great Depression that affected all Western industrialized countries. The crash followed a speculative boom that had taken hold in the late 1920s",
+  "image_url":"https://cdn.britannica.com/700x450/56/71256-004-0692912A.jpg"
 }
-
 ]
