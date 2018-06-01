@@ -17,21 +17,20 @@
   "time":"2009",
   "region":"Japan, Global",
   "description":"The latest development in money uses cryptography to seek to ensure trust and fungibility in a theoretically tamper-proof distributed ledger called a blockchain. While several digital currency systems where proposed since the 1980s,the first successful decentralized peer-to-peer cryptocurrency, bitcoin, was proposed in 2008 by an unknown author or authors under the pseudonym of Satoshi Nakamoto.The protocol proposed by Nakamoto solved what is known as the double-spending problem without the need of a trusted third-party.
-
-Since bitcoin's inception, thousands of other cryptocurrencies have been introduced,[67][68] many of which use the symbology of former metallic currencies, such as silver for Litecoin.",
+Since bitcoin's inception, thousands of other cryptocurrencies have been introduced,many of which use the symbology of former metallic currencies, such as silver for Litecoin.",
   "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
 },
 {
-  "name":"",
-  "time":"",
-  "region":"",
-  "description":"",
-  "image_url":""
+  "name":"Silk Cloth",
+  "time":"460 BC",
+  "region":"China,Africa, Parts of Europe",
+  "description":"From the Far East to Europe and Africa, cloth has surfaced as a medium of exchange and a unit of measurement. During the second millennium, silk cloth passed as money in China, circulating in pieces of a uniform size. The Chinese word pu began as a word referring to “cloth,” but came to denote “money,” reflecting the importance of silk cloth as money. Silk money survived the advent of metallic coinage in China. In 460 b.c. the government formed three separate boards for management of currency, one for gems, one for gold, and one for coins and silk.",
+  "image_url":"http://3.imimg.com/data3/HJ/MH/GLADMIN-37790/silk-cloth-500x500.jpg"
 },
 {
-  "name":"",
-  "time":"",
-  "region":"",
-  "description":"",
-  "image_url":""
+  "name":"Tea Bricks",
+  "time":"9th to 20th Century",
+  "region":"China, Mongolia, Siberia, Tibet, Turkmenistan and Russia",
+  "description":"In Siberia, Mongolia, Tibet and Chinese-Asian marts, cakes of compressed tea resembling mud-bricks circulate as money. This “money” which is manufactured in Southern China, is made of leaves and stalks of the tea plant, aromatic herbs and ox blood. It is sometimes bound together with yak dung. Tea is compressed into bricks of various sizes and stamped with a value that varies depending upon the quality of the tea. It usually increases as the bricks circulate farther from the tea producing country. The natives of Siberia prefer tea-money to metallic coins because of lung diseases prevalent in their severe climate, and they regard brick tea not only as a refreshing beverage but also as a medicine against coughs and colds.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/300px-Zhuan_cha.jpg"
 }]
