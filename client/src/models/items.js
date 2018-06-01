@@ -7,7 +7,7 @@ class Items {
   }
 
   bindEvents(){
-
+    this.setupItemClickedListener();
   }
 
   getData(){
@@ -18,6 +18,19 @@ class Items {
     })
     .catch(console.error);
   };
+
+  setupItemClickedListener(){
+    PubSub.subscribe('ItemListView:item-selected',(evt)=>{ this.getItemData(evt.detail)
+    })
+  }
+
+  getItemData(itemId){
+    const request = new Request(`http://localhost:3000/api/items/${itemId}`);
+    request.get().then((item)=>{
+      // console.log("Item",item);
+      PubSub.publish('Items:item-data-loaded',item);
+    })
+  }
 }
 
 

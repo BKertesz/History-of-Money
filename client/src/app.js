@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     itemListView.bindEvents();
+    items.bindEvents();
     items.getData();
 
 });
