@@ -1,0 +1,37 @@
+{
+  "name":"South Sea Bubble ",
+  "time":"1720",
+  "region":"",
+  "description":"The South Sea Company was a British joint-stock company founded in 1711, created as a public-private partnership to consolidate and reduce the cost of national debt. The company was also granted a monopoly to trade with South America and nearby islands. Company stock rose greatly in value as it expanded its operations dealing in government debt, peaking in 1720 before collapsing to little above its original flotation price; the economic bubble became known as the South Sea Bubble. n Great Britain, a considerable number of people were ruined by the share collapse, and the national economy greatly reduced as a result. The founders of the scheme engaged in insider trading, using their advance knowledge of when national debt was to be consolidated to make large profits from purchasing debt in advance.  ",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/17/William_Hogarth_-_The_South_Sea_Scheme.png"
+}
+
+[{
+  "name":"Tulip mania",
+  "time":"1600s",
+  "region":"Netherlands",
+  "description":"Tulip mania was a period in the Dutch Golden Age during which contract prices for some bulbs of the recently introduced and fashionable tulip reached extraordinarily high levels and then dramatically collapsed in February 1637.[2] It is generally considered the first recorded speculative bubble",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/Tulipomania.jpg"
+},
+{
+  "name":" European debt crisis",
+  "time":"2009 - Now",
+  "region":"Europe",
+  "description":"The European debt crisis is a multi-year debt crisis that has been taking place in the European Union since the end of 2009. Several eurozone member states (Greece, Portugal, Ireland, Spain and Cyprus) were unable to repay or refinance their government debt or to bail out over-indebted banks under their national supervision without the assistance of third parties like other Eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF). The crisis has had significant adverse economic effects and labour market effects, with unemployment rates in Greece and Spain reaching 27%, and was blamed for subdued economic growth, not only for the entire eurozone, but for the entire European Union
+",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Long-term_interest_rates_%28eurozone%29.png"
+},
+{
+  "name":"Global financial crisis of 2008",
+  "time":"2008",
+  "region":"",
+  "description":"The global financial crisis of 2008 is considered tp ne the worst financial crisis since the Great Depression, it was started by a mortgage crisis in the United States which caused an international banking crisis. Massive bail-outs of financial institutions and other palliative monetary and fiscal policies were employed to prevent a possible collapse of the world financial system. The crisis was nonetheless followed by a global economic downturn, the Great Recession. ",
+  "image_url":"http://blogs.reuters.com/anatole-kaletsky/files/2014/08/ant-nyse-traders.jpg"
+},
+{
+  "name":"Wall Street Crash of 1929",
+  "time":"1929",
+  "region":"USA",
+  "description":"The Wall Street Crash of 1929, also known as Black Tuesday (October 29),[1] the Great Crash, or the Stock Market Crash of 1929, began on October 24, 1929 (\"Black Thursday\"), and was the most devastating stock market crash in the history of the United States, the crash signalled the beginning of the 12-year Great Depression that affected all Western industrialized countries. The crash followed a speculative boom that had taken hold in the late 1920s",
+  "image_url":"https://cdn.britannica.com/700x450/56/71256-004-0692912A.jpg"
+}]
