@@ -1,0 +1,95 @@
+[{
+  "name":"Ancient Chinese Coinage",
+  "time":"770-476 BCE",
+  "region":"China",
+  "description":"First ones were used in ceremonial exchanges, and were shaped after cowrie shells.
+  The later introduced metal coins weren't round, rather shaped like spades and knifes.
+  They were originally cast into molds, rather than being hammered or cut like European coins.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Square_Shoulder_Spade.jpg/440px-Square_Shoulder_Spade.jpg"
+},
+{
+  "name":"Lydian Lion Coin",
+  "time":"700-550 BCE",
+  "region":"Sardis",
+  "description":"First recorded time in history, when people started to use gold and silver in coins.
+  The first coinage was made from electrum, an alloy of silver and gold. For their material and minting value they were recorder by
+  , and collected by ancient Greeks.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/a/ae/BMC_06.jpg"
+},
+{
+  "name":"Gold gulden",
+  "time":"1252-1307",
+  "region":"Republic of Florence",
+  "description":"Minted in the rich Italian trade city of Florence from gold.
+  Minting it was made possible by the large amount of gold the crusaders brought back to Italy.
+  Became a major coin for trading in many countries, was used all the way through the Middle Ages.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Fiorino_1347.jpg/440px-Fiorino_1347.jpg"
+},
+{
+  "name":"Maria Theresa thaler",
+  "time":"1780",
+  "region":"Austria",
+  "description":"Minted in Günzburg as in modern day Bavaria. One of the most long lasting silver trade coins,
+  of any monetary history. The design and fineness added it a great popularity, also the fact Maria Theresa was quite popular at the time.",
+  "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
+},
+{
+  "name":"Euro Coins",
+  "time":"2002 - ",
+  "region":"Europe",
+  "description":"They have a common reverse, portraying a map of Europe, but each country in the eurozone has its own design on the obverse, which means that each coin has a variety of different designs in circulation at once.",
+  "image_url":""
+},
+{
+  "name":"Polymer Notes",
+  "time":"1998",
+  "region":"Australia",
+  "description":"Polymer notes last 2.5 times longer than paper notes, and are more difficult to conterfeit. More than 25 countries currently use polymer notes and Australia were the first to use them in 1988. Polymer notes cost twice the amount to produce as paper notes.",
+  "image_url":""
+},
+{
+  "name":"Highest Value - $10,000",
+  "time":"1928",
+  "region":"USA",
+  "description":"The $10,000 note was produced in 1928 and was only briefly in circulation, it was mainly used for large transfers between banks. It is estimated that only around 350 of the notes are still in circulation, but since they are so rare they can be worth ten times their value.",
+  "image_url":""
+},
+{
+  "name":"The first banknote",
+  "time":"618",
+  "region":"",
+  "description":"The first banknote is likely to have been developed during the Tang Dynasty, around 618-907, in China. Paper notes were introduced when wealthy merchants struggled to carry all of their copper coins around. Coins were exchanged for receipts, which was the earliest version of a promisory note.",
+  "image_url":""
+},
+{
+  "name":"Vertical Note",
+  "time":"2018",
+  "region":"Northern Ireland",
+  "description":"Notes are almost always printed on a horizontal view, however, later this year Northern Ireland will become just one of seven countries who will print their notes vertically. China previously printed notes vertically, due to the direction of Chinese writing. Studies have shown that people tend to hold notes vertically when carrying out transactions.",
+  "image_url":""
+},
+{
+  "name":"Barter",
+  "time":"128000 BC to 3000 BC",
+  "region":"Babylonia",
+  "description":"The first banks appeared in Babylonia(present day Iraq) with pagrons depositing grain then cattle, agricultural tools and precious metals",
+  "image_url":"https://image.slidesharecdn.com/barteradvertising-tradefirst-150903125124-lva1-app6892/95/barter-advertising-trade-first-1-638.jpg?cb=1441284744"
+},
+{
+  "name":"Cowry Shells",
+  "time":"1300 BC",
+  "region":"Asia, Oceana, Africa and some parts of Europe",
+  "description":"Cowry Shell were accepted as legal tender in some parts of Africa until the 20th Century",
+  "image_url":"https://climbcarstensz.files.wordpress.com/2013/08/96161.jpg"
+},
+{
+  "name":"Digital Currency",
+  "time":"2009",
+  "region":"Japan, Global",
+  "description":"The latest development in money uses cryptography to seek to ensure trust and fungibility in a theoretically tamper-proof distributed ledger called a blockchain. While several digital currency systems where proposed since the 1980s,the first successful decentralized peer-to-peer cryptocurrency, bitcoin, was proposed in 2008 by an unknown author or authors under the pseudonym of Satoshi Nakamoto.The protocol proposed by Nakamoto solved what is known as the double-spending problem without the need of a trusted third-party.
+
+Since bitcoin's inception, thousands of other cryptocurrencies have been introduced,[67][68] many of which use the symbology of former metallic currencies, such as silver for Litecoin.",
+  "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
+}
+
+]
