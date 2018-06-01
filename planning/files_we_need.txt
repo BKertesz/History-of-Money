@@ -1,0 +1,23 @@
+Client Side
+-------------
+
+Views:
+-- List of Items that are clickable to display their details
+-- Detail view where all detailed information shows up
+
+Model:
+-- A model that handles all the communication and data loading between views
+
+
+AppJS:
+-- Needs to call in the views and model also grab the viewDOMs for the views constructor
+
+Server Side
+------------
+Routers:
+-- An index router that handles the connection to the model router and database
+-- A model router that handles the api get all and get one index routes, we don't post or
+delete or any other method in this project.
+
+Seed:
+-- Here we will have the JSON examples that we made and use mongo < ... to load it in.
