@@ -1,0 +1,37 @@
+[{
+  "name":"Barter",
+  "time":"128000 BC to 3000 BC",
+  "region":"Babylonia",
+  "description":"The first banks appeared in Babylonia(present day Iraq) with pagrons depositing grain then cattle, agricultural tools and precious metals",
+  "image_url":"https://image.slidesharecdn.com/barteradvertising-tradefirst-150903125124-lva1-app6892/95/barter-advertising-trade-first-1-638.jpg?cb=1441284744"
+},
+{
+  "name":"Cowry Shells",
+  "time":"1300 BC",
+  "region":"Asia, Oceana, Africa and some parts of Europe",
+  "description":"Cowry Shell were accepted as legal tender in some parts of Africa until the 20th Century",
+  "image_url":"https://climbcarstensz.files.wordpress.com/2013/08/96161.jpg"
+},
+{
+  "name":"Digital Currency",
+  "time":"2009",
+  "region":"Japan, Global",
+  "description":"The latest development in money uses cryptography to seek to ensure trust and fungibility in a theoretically tamper-proof distributed ledger called a blockchain. While several digital currency systems where proposed since the 1980s,the first successful decentralized peer-to-peer cryptocurrency, bitcoin, was proposed in 2008 by an unknown author or authors under the pseudonym of Satoshi Nakamoto.The protocol proposed by Nakamoto solved what is known as the double-spending problem without the need of a trusted third-party.
+
+Since bitcoin's inception, thousands of other cryptocurrencies have been introduced,[67][68] many of which use the symbology of former metallic currencies, such as silver for Litecoin.",
+  "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
+},
+{
+  "name":"",
+  "time":"",
+  "region":"",
+  "description":"",
+  "image_url":""
+},
+{
+  "name":"",
+  "time":"",
+  "region":"",
+  "description":"",
+  "image_url":""
+}]
