@@ -1,5 +1,3 @@
-# group_project
-
 # Educational App Brief
 
 The BBC are looking to improve their online offering of financial education content by developing an interactive apps that display information on the history of money in a fun and interesting way. The app will look at the 'History of Money', and will present an interactive timeline with clickable content. Facts and events will be displayed in a chronological order, additional information will be presented when items are clicked on.

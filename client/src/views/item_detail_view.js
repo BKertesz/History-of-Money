@@ -1,5 +1,6 @@
 const PubSub = require('../helpers/pub_sub.js');
 
+//This view appers at the bottom of the page and displays invidual details
 class ItemDetailView {
   constructor(view) {
     this.view = view;

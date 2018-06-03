@@ -1,5 +1,6 @@
 const PubSub = require('../helpers/pub_sub.js');
 
+//This class is responsible for handling views and clicks on the timeline
 class ItemListView{
 
   constructor(view){
