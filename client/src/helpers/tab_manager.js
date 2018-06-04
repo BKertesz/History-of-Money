@@ -35,14 +35,24 @@ class TabManager{
     }
   }
 
-  hide(view){
-    const item = document.querySelector(this.options[view]);
+  hide(id){
+    const item = document.querySelector(this.options[id]);
     item.style.display = 'none';
   }
 
-  show(view){
-    const item = document.querySelector(this.options[view]);
+  show(id){
+    const item = document.querySelector(this.options[id]);
     item.style.display = 'inline';
+  }
+
+  isHidden(id){
+    const item = document.querySelector(this.options[id]);
+    if(item.style.display == 'none'){
+      return true;
+    }
+    else{
+      return false
+    }
   }
 
 
