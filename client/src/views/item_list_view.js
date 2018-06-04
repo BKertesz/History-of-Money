@@ -26,6 +26,11 @@ class ItemListView{
 
       const itemRow = document.createElement('li')
       itemRow.textContent = item.name;
+
+      const year = document.createElement('li')
+      year.textContent = item.time;
+
+
       // itemRow.value = item._id;
       itemRow.id = item._id
       // console.log('Item id',item._id)
@@ -33,7 +38,8 @@ class ItemListView{
 
       itemRow.addEventListener('click',(evt)=>{this.handleClick(evt)});
 
-      fullList.appendChild(itemRow);
+      fullList.appendChild(year);
+      year.appendChild(itemRow);
     })
     //We add the list to the existing html element
     this.view.appendChild(fullList);
