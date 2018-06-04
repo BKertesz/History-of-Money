@@ -24,14 +24,23 @@ class ItemDetailView {
     this.view.appendChild(name);
 
     const time = document.createElement('h3');
-    time.textContent = item.time;
+    time.textContent = `Time Period:${item.time}`;
     this.view.appendChild(time);
 
     const region = document.createElement('h3');
-    region.textContent = item.region;
+    region.textContent = `Region:${item.region}`;
     this.view.appendChild(region);
 
-    const description = document.createElement('h4');
+    const image = document.createElement('img');
+    image.src = item.image_url;
+    image.id = 'detail-image'
+    this.view.appendChild(image);
+
+    const descriptionTitle = document.createElement('h3');
+    descriptionTitle.textContent = 'Description'
+    this.view.appendChild(descriptionTitle);
+
+    const description = document.createElement('p');
     description.textContent = item.description;
     this.view.appendChild(description);
 
