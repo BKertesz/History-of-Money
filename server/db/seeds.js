@@ -54,7 +54,7 @@ db.items.insertMany(
   {
     "name":"The first banknote",
     "time":"618",
-    "region":"",
+    "region":"China",
     "description":"The first banknote is likely to have been developed during the Tang Dynasty, around 618-907, in China. Paper notes were introduced when wealthy merchants struggled to carry all of their copper coins around. Coins were exchanged for receipts, which was the earliest version of a promissory note.",
     "image_url":"https://i.pinimg.com/originals/bb/25/a1/bb25a12055990848b0d64c0a844ea64c.jpg"
   },
@@ -82,7 +82,7 @@ db.items.insertMany(
   {
     "name":"Digital Currency",
     "time":"2009",
-    "region":"Japan, Global",
+    "region":"Global",
     "description":"The latest development in money uses cryptography to seek to ensure trust in a theoretically tamper-proof system called a blockchain. These systems have been around since the 1980s, however the first successful and most famous cryptocurrency, bitcoin, was proposed in 2008 by an unknown person under the name of Satoshi Nakamoto. Since bitcoin's inception, thousands of other cryptocurrencies have been introduced.",
     "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
   },
@@ -101,14 +101,14 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/d/d8/Tulipomania.jpg"
   },
   {
-    "name":" European debt crisis",
+    "name":" European Debt Crisis",
     "time":"2018",
     "region":"Europe",
     "description":"The European debt crisis has been taking place in the EU since the end of 2009. Several countries (Greece, Portugal, Ireland, Spain and Cyprus) were unable to repay their government debt without the assistance of third parties like other Eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF). The crisis has had negative effects on the economy and labour market, with unemployment rates in Greece and Spain reaching 27%, and was blamed for poor economic growth, impacting all of the entire European Union",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Long-term_interest_rates_%28eurozone%29.png"
   },
   {
-    "name":"Global financial crisis of 2008",
+    "name":"Global Financial Crisis of 2008",
     "time":"2008",
     "region":"Earth",
     "description":"The global financial crisis of 2008 is considered to be the worst financial crisis since the Great Depression, it was started by a mortgage crisis in the United States which caused an international banking crisis. Massive bail-outs of financial institutions and other policies were rolled out to try to prevent a possible collapse of the world financial system. The crisis has been followed by a global economic downturn, the Great Recession. ",
@@ -130,7 +130,7 @@ db.items.insertMany(
   },
   {
     "name":"Tea Bricks",
-    "time":"9th to 20th Century",
+    "time":"800 - 1900",
     "region":"China, Mongolia, Siberia, Tibet, Turkmenistan and Russia",
     "description":"In Siberia, Mongolia, Tibet and Chinese-Asian marts, cakes of compressed tea resembling mud-bricks were used as money. This “money” manufactured in Southern China, was made of leaves and stalks of the tea plant, herbs and ox blood. It was then bound together with yak dung. Tea was compressed into bricks of various sizes and stamped with a value which varied depending on quality of the tea. The value increased as the bricks travelled farther from the tea producing country.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/300px-Zhuan_cha.jpg"
