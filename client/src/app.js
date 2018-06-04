@@ -1,6 +1,8 @@
 const ItemListView = require('./views/item_list_view.js');
 const Items = require('./models/items.js');
 const ItemDetailView = require('./views/item_detail_view.js');
+const Chart = require('./views/chart_view.js');
+
 
 document.addEventListener('DOMContentLoaded', () => {
     //Here we first grab hold of the div on the bottom of the page where
@@ -8,9 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemDetailDOM = document.querySelector('#item-detail-view');
     //We grab hold of the listview which later will be the timeline
     const itemListDOM = document.querySelector('#item-list-view');
+
+    const chartViewDOM = document.querySelector('#chart-container');
+
     //We initiliaze both of the views with the views passed into them
     const itemListView = new ItemListView(itemListDOM);
     const itemDetailView = new ItemDetailView(itemDetailDOM);
+    //To create the chart view
+    const chartView = new Chart(chartViewDOM);
 
     //This is the url for our localy created api MongoDB
     const url = 'http://localhost:3000/api/items'
@@ -21,5 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     itemListView.bindEvents();
     items.bindEvents();
     items.getData();
+    chartView.bindEvents();
 
 });
