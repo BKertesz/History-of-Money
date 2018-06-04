@@ -40,7 +40,7 @@ db.items.insertMany(
   {
     "name":"The first banknote",
     "time":"618",
-    "region":"",
+    "region":"China",
     "description":"The first banknote is likely to have been developed during the Tang Dynasty, around 618-907, in China. Paper notes were introduced when wealthy merchants struggled to carry all of their copper coins around. Coins were exchanged for receipts, which was the earliest version of a promissory note.",
     "image_url":"https://i.pinimg.com/originals/bb/25/a1/bb25a12055990848b0d64c0a844ea64c.jpg"
   },
@@ -117,7 +117,7 @@ db.items.insertMany(
   {
     "name":"Digital Currency",
     "time":"2009",
-    "region":"Japan, Global",
+    "region":"Global",
     "description":"The latest development in money uses cryptography to seek to ensure trust in a theoretically tamper-proof system called a blockchain. These systems have been around since the 1980s, however the first successful and most famous cryptocurrency, bitcoin, was proposed in 2008 by an unknown person under the name of Satoshi Nakamoto. Since bitcoin's inception, thousands of other cryptocurrencies have been introduced.",
     "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
   },

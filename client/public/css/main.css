@@ -3,6 +3,10 @@ html, body {
 	background: #fff;
 	min-width: 700px;
 }
+#detail-image{
+  width: 250px;
+  height: 200px;
+}
 
 /* ---- Timeline ---- */
 ol {
@@ -37,7 +41,7 @@ ol::after {
 
 .all_info{
   overflow: scroll;
-  
+
 }
 
 .tl-div {

@@ -3,20 +3,29 @@
 <head>
   <meta charset="utf-8">
   <title>The History of Money</title>
+  <link rel="stylesheet" href="css/main.css">
   <script src="/js/bundle.js"></script>
-  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  <nav>
+    <label for='timeline-or-list'>Show Timeline or List</label>
+    <button id='timeline-or-list'>Toggle</button>
+    <label for='detail-or-chart'>Show Details or Chart</label>
+    <button id='detail-or-chart'>Toggle</button>
+  </nav>
+
   <h1>History of Money</h1>
   <div class="all_info">
+    <div id='item-timeline'>Timeline goes here</div>
     <ol>
-      <div id='item-list-view' class='tl-div'>
-      </ol>
 
+
+      <div id='item-list-view' class="tl-div">
+      </ol>
     </div>
     <hr/>
     <div id='item-detail-view'></div>
-
+    <div id='item-chart'>Joe's Graph go here</div>
   </div>
 </body>
 </html>
