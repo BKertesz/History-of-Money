@@ -27,8 +27,8 @@ class ItemListView{
       const itemHighlight = document.createElement('ul')
       itemHighlight.id = 'item-highlight'
 
-      const itemRow = document.createElement('p')
-      itemRow.textContent = item.name;
+      const itemName = document.createElement('p')
+      itemName.textContent = item.name;
 
       const year = document.createElement('li')
       year.textContent = item.time;
@@ -37,30 +37,39 @@ class ItemListView{
       image.src = item.image_url;
       image.id = 'timeline-image';
 
-      // itemRow.value = item._id;
-      itemRow.id = item._id
+      itemHighlight.id = item._id;
+
+      // itemName.value = item._id;
+      // itemName.id = item._id
       // console.log('Item id',item._id)
-      // console.log('Item row id',itemRow.id)
+      // console.log('Item row id',itemName.id)
 
-      itemRow.addEventListener('click',(evt)=>{this.handleClick(evt)});
+      itemHighlight.addEventListener('click',(evt)=>{
+        evt.stopPropagation();
+        // console.log(itemId);
+        console.log('click ID',evt.target);
+        console.log(evt.target.id);
+        // this.handleClick(evt)
+      });
 
-      fullList.appendChild(year);
-      year.appendChild(itemRow);
-      year.appendChild(image);
+      // fullList.appendChild(year);
+      // year.appendChild(itemName);
+      // year.appendChild(image);
       // itemHighlight.appendChild(year);
 
-      // itemHighlight.appendChild(year);
-      // itemHighlight.appendChild(itemRow);
-      // itemHighlight.appendChild(image);
-      // fullList.appendChild(itemHighlight);
+      itemHighlight.appendChild(year);
+      itemHighlight.appendChild(itemName);
+      itemHighlight.appendChild(image);
+      fullList.appendChild(itemHighlight);
     })
     //We add the list to the existing html element
     this.view.appendChild(fullList);
   }
 
-  handleClick(evt){
+  handleClick(evt,id){
+    console.log(id);
     //This function passes data back to the model, what item's details to display
-    PubSub.publish('ItemListView:item-selected',evt.target.id);
+    // PubSub.publish('ItemListView:item-selected',evt.target.id);
     // console.log(evt.target.innerText);
     // console.log(evt.target.id);
   }
