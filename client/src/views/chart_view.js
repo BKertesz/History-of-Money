@@ -1,3 +1,4 @@
+const PubSub = require('../helpers/pub_sub.js');
 const Highcharts = require('highcharts');
 // Load module after Highcharts is loaded
 require('highcharts/modules/exporting')(Highcharts);
@@ -9,13 +10,21 @@ class Chart {
   }
 
   bindEvents(){
-    // Subscribe to model to get data
-    this.createChart();
+    this.setupChartListener();
   }
+
+  //Listening till the chart_data model publishes all data then populate the chart
+  setupChartListener(){
+    PubSub.subscribe('ChartData-all-data-ready', (evt) => {
+      this.createChart(evt.detail)
+    });
+  }
+
+
   // Create the chart
 
-  createChart() {
-
+  createChart(data) {
+// console.log(data.xAxis);
     const chartContainer = document.querySelector('#chart-container');
 
     const myChart = Highcharts.chart(chartContainer, {
@@ -23,10 +32,10 @@ class Chart {
         type: 'column'
       },
       xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        categories: data.xAxis
       },
       title: {
-          text: 'Gold Prices By Month'
+        text: 'Gold Prices By Day'
       },
       plotOptions: {
         series: {
@@ -35,7 +44,7 @@ class Chart {
       },
       series: [{
         name: 'Prices',
-        data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+        data: data.yAxis
       }]
     });
 

@@ -36,6 +36,5 @@ document.addEventListener('DOMContentLoaded', () => {
     items.getData();
     chartView.bindEvents();
     chartData.getData();
-    chartData.getXAxisData();
 
 });

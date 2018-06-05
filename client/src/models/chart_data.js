@@ -7,29 +7,25 @@ class ChartData {
     // this.yAxisData = [];
   }
 
-getData(){
-  const request = new Request('https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json');
-  request.get()
-  .then((chartData) => {
-    PubSub.publish('ChartData-all-data-ready', chartData);
-    // console.log(chartData.data);
-  })
-  .catch(console.error);
-};
-
-  getXAxisData(){
+  getData(){
     const request = new Request('https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json');
     request.get()
     .then((chartData) => {
+      const dataSeries = {};
       const xAxisData = chartData.data.map(dataSeries => dataSeries[0]);
       const yAxisData = chartData.data.map(dataSeries => dataSeries[1]);
-      // console.log(xAxisData);
-      // console.log(yAxisData);
+
+      dataSeries.xAxis = xAxisData;
+      dataSeries.yAxis = yAxisData;
+      // console.log("tranfered data",dataSeries);
+      // xAxisData.forEach((xAxis, i) => dataSeries[xAxis] = yAxisData[i]);
+      // console.log(dataSeries);
+      PubSub.publish('ChartData-all-data-ready', dataSeries);
     })
-    return xAxisData;
-  }
-  console.log(getXAxisData().xAxisData);
-}
+    .catch(console.error);
+
+  };
+};
 
 
 module.exports = ChartData;
