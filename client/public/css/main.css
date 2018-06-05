@@ -15,6 +15,10 @@ html, body {
   border: black solid 1px;
 }
 
+p {
+  height: 35px;
+}
+
 /* ---- Timeline ---- */
 ol {
 	position: relative;
@@ -47,9 +51,14 @@ ol::after {
 }
 
 .all_info{
+  /* display: flex; */
   overflow: scroll;
   height: 300px;
 
+}
+
+#full-list {
+  display: flex;
 }
 
 .tl-div {
@@ -59,8 +68,7 @@ ol::after {
 }
 
 #item-highlight{
-  display: flex;
-  flex-direction: column;
+  width: 100px;
 }
 
 /* #item-detail-view{
@@ -71,19 +79,18 @@ ol::after {
 
 /* ---- Timeline elements ---- */
 li {
-  padding-top: 30px;
-  padding-left: 30px;
+  padding-top: 20px;
   list-style: none;
   align-content:space-between;
 	position: relative;
-	float: left;
+	/* float: left; */
 	width: 150px;
 	font: bold 14px arial;
-  height: 20px;
+  /* height: 20px; */
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+/* li:hover {
 	cursor: pointer;
   color: #48A4D2;
-}
+} */
