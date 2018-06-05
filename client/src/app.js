@@ -3,6 +3,7 @@ const Items = require('./models/items.js');
 const ChartData = require('./models/chart_data.js');
 const ItemDetailView = require('./views/item_detail_view.js');
 const Chart = require('./views/chart_view.js');
+const TabsView = require('./views/tabs_view.js')
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -24,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
       //This is the url for the Chart data API
     const chartApiUrl = 'https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json?api_key=eErY9cenLvxoqXMFyZwm'
     const chartData = new ChartData(chartApiUrl);
+
+    const tabsView = new TabsView();
+    tabsView.bindEvents();
 
     //Here we set up all the pubsub subscribe and load data from the db
     itemDetailView.bindEvents();

@@ -24,6 +24,7 @@ class TabsView{
 
   bindEvents(){
     // this.topTabs.toggle('list');
+    console.log('Bind events works')
     this.bottomTabs.toggle('detail');
     this.setupButtonListeners()
   }
@@ -41,7 +42,7 @@ class TabsView{
     // })
 
     this.button2.addEventListener('click',(event)=>{
-      // console.log('This button been pressed two...')
+      console.log('This button been pressed two...')
       if(this.bottomTabs.isHidden('detail')){
         this.bottomTabs.toggle('detail')
       }
