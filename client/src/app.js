@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = 'http://localhost:3000/api/items'
     const items = new Items(url);
       //This is the url for the Chart data API
-    const chartApiUrl = 'https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json'
+    const chartApiUrl = 'https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json?api_key=eErY9cenLvxoqXMFyZwm'
     const chartData = new ChartData(chartApiUrl);
-    
+
     //Here we set up all the pubsub subscribe and load data from the db
     itemDetailView.bindEvents();
     itemListView.bindEvents();

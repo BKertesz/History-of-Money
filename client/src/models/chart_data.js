@@ -6,7 +6,7 @@ class ChartData {
   }
   //this method fetches the data from the API and tranforms it to X axis and Y axis and publishes for the Chart View to subscribe.
   getData(){
-    const request = new Request('https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json');
+    const request = new Request('https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json?api_key=eErY9cenLvxoqXMFyZwm');
     request.get()
     .then((chartData) => {
       const dataSeries = {};

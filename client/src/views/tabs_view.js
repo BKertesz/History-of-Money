@@ -4,17 +4,17 @@ const PubSub = require('../helpers/pub_sub.js')
 class TabsView{
   constructor(){
 
-    const topViews = {
-      "list":"#item-list-view",
-      "timeline":"#item-timeline"
-    }
+    // const topViews = {
+    //   "list":"#item-list-view",
+    //   "timeline":"#item-timeline"
+    // }
 
     const bottomViews = {
       "detail":"#item-detail-view",
-      "chart":"#item-chart"
+      "chart":"#chart-container"
     }
 
-    this.button1 = document.querySelector('#timeline-or-list')
+    // this.button1 = document.querySelector('#timeline-or-list')
     this.button2 = document.querySelector('#detail-or-chart')
 
     this.topTabs = new TabManager(topViews);

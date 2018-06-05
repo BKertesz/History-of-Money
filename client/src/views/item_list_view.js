@@ -20,16 +20,22 @@ class ItemListView{
   populate(items){
     //This function creates the invidual lines that are displayed in the list
     //We create an unordered list that we append each new row
-    const fullList = document.createElement('ul')
-    fullList.id = ''
+    const fullList = document.createElement('div')
+    fullList.id = 'full-list'
     items.forEach((item)=>{
 
-      const itemRow = document.createElement('li')
+      const itemHighlight = document.createElement('ul')
+      itemHighlight.id = 'item-highlight'
+
+      const itemRow = document.createElement('p')
       itemRow.textContent = item.name;
 
       const year = document.createElement('li')
       year.textContent = item.time;
 
+      const image = document.createElement('img')
+      image.src = item.image_url;
+      image.id = 'timeline-image';
 
       // itemRow.value = item._id;
       itemRow.id = item._id
@@ -40,6 +46,13 @@ class ItemListView{
 
       fullList.appendChild(year);
       year.appendChild(itemRow);
+      year.appendChild(image);
+      // itemHighlight.appendChild(year);
+
+      // itemHighlight.appendChild(year);
+      // itemHighlight.appendChild(itemRow);
+      // itemHighlight.appendChild(image);
+      // fullList.appendChild(itemHighlight);
     })
     //We add the list to the existing html element
     this.view.appendChild(fullList);

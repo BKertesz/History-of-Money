@@ -6,7 +6,7 @@ db.items.insertMany(
     "name":"Barter",
     "time":"3000 BC",
     "region":"Babylonia",
-    "description":"The first banks appeared in Babylonia(present day Iraq) with patrons depositing grain then cattle, agricultural tools and precious metals",
+    "description":"The first banks appeared in Babylonia (present day Iraq) with patrons depositing grain then cattle, agricultural tools and precious metals",
     "image_url":"https://image.slidesharecdn.com/barteradvertising-tradefirst-150903125124-lva1-app6892/95/barter-advertising-trade-first-1-638.jpg?cb=1441284744"
   },
   {
@@ -27,18 +27,18 @@ db.items.insertMany(
     "name":"Ancient Chinese Coins",
     "time":"476 BC",
     "region":"China",
-    "description":"First coins were used during ceremonial exchanges, and were shaped like cowrie shells. Metal coins introduced later weren't round, but were shaped like spades and knives. They were originally cast into molds, rather than being hammered or cut like European coins.",
+    "description":"First coins were used during ceremonial exchanges, and were shaped like cowry shells. Metal coins introduced later weren't round, but were shaped like spades and knives. They were originally cast into molds, rather than being hammered or cut like European coins.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Square_Shoulder_Spade.jpg/440px-Square_Shoulder_Spade.jpg"
   },
   {
     "name":"Silk Cloth",
     "time":"460 BC",
     "region":"China, Africa, Parts of Europe",
-    "description":"From the Far East to Europe and Africa, cloth has been used as medium of exchange and a unit of measurement. During the second millennium, silk cloth passed as money in China, circulating in pieces of a uniform size. The Chinese word pu began as a word referring to “cloth,” but came to denote “money,” reflecting the importance of silk cloth as money. Silk money survived the advent of metallic coinage in China. In 460 b.c. the government had three boards for management of  gems, gold, and for coins & silk.",
+    "description":"From the Far East to Europe and Africa, cloth has been used as medium of exchange and a unit of measurement. During the second millennium, silk cloth passed as money in China, circulating in pieces of a uniform size. The Chinese word pu began as a word referring to “cloth” but came to denote “money” reflecting the importance of silk cloth as money. Silk money survived the advent of metallic coinage in China. In 460 BC the government had three boards for management of gems, gold, and for coins & silk.",
     "image_url":"http://3.imimg.com/data3/HJ/MH/GLADMIN-37790/silk-cloth-500x500.jpg"
   },
   {
-    "name":"The first banknote",
+    "name":"The First Banknote",
     "time":"618",
     "region":"China",
     "description":"The first banknote is likely to have been developed during the Tang Dynasty, around 618-907, in China. Paper notes were introduced when wealthy merchants struggled to carry all of their copper coins around. Coins were exchanged for receipts, which was the earliest version of a promissory note.",
@@ -52,7 +52,7 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/300px-Zhuan_cha.jpg"
   },
   {
-    "name":"Gold gulden",
+    "name":"Gold Gulden",
     "time":"1252",
     "region":"Republic of Florence",
     "description":"Minted in the rich Italian trade city of Florence from gold. Minting was made possible by the large amount of gold the crusaders brought back to Italy. It was a major coin for trading in many countries and was used all the way through the Middle Ages.",
@@ -73,14 +73,14 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/17/William_Hogarth_-_The_South_Sea_Scheme.png"
   },
   {
-    "name":"Maria Theresa thaler",
+    "name":"Maria Theresa Thaler",
     "time":"1780",
     "region":"Austria",
     "description":"The Thaler was minted in Günzburg, now Bavaria. It was one of the most long lasting silver trade coins, of any monetary history. The design and fineness added to its great popularity, Maria Theresa was quite famous at the time which helped too.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
   },
   {
-    "name":"Highest Value - $10,000",
+    "name":"Highest Value Note - $10,000",
     "time":"1928",
     "region":"USA",
     "description":"The $10,000 note was produced in 1928 and was only briefly in circulation, it was mainly used for large transfers between banks. It is estimated that only around 350 of the notes are still in circulation, but since they are so rare they can be worth ten times their value.",
@@ -108,7 +108,7 @@ db.items.insertMany(
     "image_url":"https://www.fleur-de-coin.com/images/eurocoins/Eurocoins.jpg"
   },
   {
-    "name":"Global financial crisis of 2008",
+    "name":"Global Financial Crisis",
     "time":"2008",
     "region":"Global",
     "description":"The global financial crisis of 2008 is considered to be the worst financial crisis since the Great Depression, it was started by a mortgage crisis in the United States which caused an international banking crisis. Massive bail-outs of financial institutions and other policies were rolled out to try to prevent a possible collapse of the world financial system. The crisis has been followed by a global economic downturn, the Great Recession. ",
@@ -122,7 +122,7 @@ db.items.insertMany(
     "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
   },
   {
-    "name":" European debt crisis",
+    "name":" European Debt Crisis",
     "time":"2018",
     "region":"Europe",
     "description":"The European debt crisis has been taking place in the EU since the end of 2009. Several countries (Greece, Portugal, Ireland, Spain and Cyprus) were unable to repay their government debt without the assistance of third parties like other Eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF). The crisis has had negative effects on the economy and labour market, with unemployment rates in Greece and Spain reaching 27%, and was blamed for poor economic growth, impacting all of the entire European Union",
