@@ -63,6 +63,12 @@ ol::after {
   flex-direction: column;
 }
 
+/* #item-detail-view{
+  border: black 1px solid;
+  height: 100px;
+  width: 100px;
+} */
+
 /* ---- Timeline elements ---- */
 li {
   padding-top: 30px;
