@@ -1,12 +1,10 @@
 const PubSub = require('../helpers/pub_sub.js');
 const Request = require('../helpers/request.js');
-//This class is responsible for handling data between the api db and the views//
+//This class is responsible for handling data between the expternal Gold Prices api  and the views//
 class ChartData {
   constructor() {
-    // this.xAxisData = [];
-    // this.yAxisData = [];
   }
-
+  //this method fetches the data from the API and tranforms it to X axis and Y axis and publishes for the Chart View to subscribe.
   getData(){
     const request = new Request('https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json');
     request.get()
@@ -19,7 +17,6 @@ class ChartData {
       dataSeries.yAxis = yAxisData;
       // console.log("tranfered data",dataSeries);
       // xAxisData.forEach((xAxis, i) => dataSeries[xAxis] = yAxisData[i]);
-      // console.log(dataSeries);
       PubSub.publish('ChartData-all-data-ready', dataSeries);
     })
     .catch(console.error);
