@@ -20,37 +20,45 @@ class ItemListView{
   populate(items){
     //This function creates the invidual lines that are displayed in the list
     //We create an unordered list that we append each new row
-    const fullList = document.createElement('ul')
-    fullList.id = ''
+    const fullList = document.createElement('div')
+    fullList.id = 'full-list'
+
     items.forEach((item)=>{
 
-      const itemRow = document.createElement('li')
-      itemRow.textContent = item.name;
+      const itemHighlight = document.createElement('ul')
+      itemHighlight.id = 'item-highlight'
+
+      const itemName = document.createElement('p')
+      itemName.textContent = item.name;
 
       const year = document.createElement('li')
       year.textContent = item.time;
 
+      const image = document.createElement('img')
+      image.src = item.image_url;
+      image.id = 'timeline-image';
 
-      // itemRow.value = item._id;
-      itemRow.id = item._id
-      // console.log('Item id',item._id)
-      // console.log('Item row id',itemRow.id)
+      itemHighlight.id = item._id;
 
-      itemRow.addEventListener('click',(evt)=>{this.handleClick(evt)});
 
-      fullList.appendChild(year);
-      year.appendChild(itemRow);
+      itemHighlight.addEventListener('click', function(event) {
+        // console.log('This',this.id)
+        PubSub.publish('ItemListView:item-selected',this.id);
+      })
+
+
+      itemHighlight.appendChild(year);
+      itemHighlight.appendChild(itemName);
+      itemHighlight.appendChild(image);
+
+
+
+      fullList.appendChild(itemHighlight);
     })
     //We add the list to the existing html element
     this.view.appendChild(fullList);
   }
 
-  handleClick(evt){
-    //This function passes data back to the model, what item's details to display
-    PubSub.publish('ItemListView:item-selected',evt.target.id);
-    // console.log(evt.target.innerText);
-    // console.log(evt.target.id);
-  }
 
 
 

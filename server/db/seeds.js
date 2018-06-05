@@ -43,7 +43,7 @@ db.items.insertMany(
     "image_url":"http://3.imimg.com/data3/HJ/MH/GLADMIN-37790/silk-cloth-500x500.jpg"
   },
   {
-    "name":"The first banknote",
+    "name":"The First Banknote",
     "time":"618",
     "region":"China",
     "coordinates":"[40.5, 115.4]",
@@ -59,7 +59,7 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/300px-Zhuan_cha.jpg"
   },
   {
-    "name":"Gold gulden",
+    "name":"Gold Gulden",
     "time":"1252",
     "region":"Republic of Florence",
     "coordinates":"[43.7, 11.2]",
@@ -83,7 +83,7 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/1/17/William_Hogarth_-_The_South_Sea_Scheme.png"
   },
   {
-    "name":"Maria Theresa thaler",
+    "name":"Maria Theresa Thaler",
     "time":"1780",
     "region":"Austria",
     "coordinates":"[48.2, 16.3]",
@@ -91,7 +91,7 @@ db.items.insertMany(
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
   },
   {
-    "name":"Highest Value - $10,000",
+    "name":"Highest Value Note - $10,000",
     "time":"1928",
     "region":"USA",
     "coordinates":"[37.0, -95.7]",
@@ -123,7 +123,7 @@ db.items.insertMany(
     "image_url":"https://www.fleur-de-coin.com/images/eurocoins/Eurocoins.jpg"
   },
   {
-    "name":"Global financial crisis of 2008",
+    "name":"Global Financial Crisis",
     "time":"2008",
     "region":"Global",
     "coordinates":"[44.3, 1.8]",
@@ -139,7 +139,7 @@ db.items.insertMany(
     "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
   },
   {
-    "name":" European debt crisis",
+    "name":" European Debt Crisis",
     "time":"2018",
     "region":"Europe",
     "coordinates":"[50.1, 8.4]",

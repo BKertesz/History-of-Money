@@ -8,10 +8,19 @@ html, body {
   height: 200px;
 }
 
+#timeline-image{
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  border: black solid 1px;
+}
 
 /* --- Map --- */
 #item-map {
   height: 500px;
+
+p {
+  height: 35px;
 }
 
 /* ---- Timeline ---- */
@@ -20,7 +29,7 @@ ol {
 	display: block;
 	margin: 100px;
 	height: 4px;
-  width: 3000px;
+  width: 4000px;
 	background: #31708F;
 }
 ol::before,
@@ -46,72 +55,46 @@ ol::after {
 }
 
 .all_info{
+  /* display: flex; */
   overflow: scroll;
+  height: 300px;
 
+}
+
+#full-list {
+  display: flex;
 }
 
 .tl-div {
   overflow: scroll;
-
   width: 99%;
   height: 350px;
 }
 
+#item-highlight{
+  width: 100px;
+}
+
+/* #item-detail-view{
+  border: black 1px solid;
+  height: 100px;
+  width: 100px;
+} */
+
 /* ---- Timeline elements ---- */
 li {
   padding-top: 20px;
+  list-style: none;
   align-content:space-between;
 	position: relative;
-	display: inline-block;
-	float: left;
+	/* float: left; */
 	width: 150px;
 	font: bold 14px arial;
-  height: 50px;
-}
-li .diplome {
-  position: absolute;
-  top: -47px;
-  left: 36%;
-  color: #000000;
-}
-li .point {
-	content: "";
-	top: -4px;
-	left: 43%;
-	display: block;
-	width: 6px;
-	height: 6px;
-	border: 4px solid #31708F;
-	border-radius: 10px;
-	background: #fff;
-  position: absolute;
-}
-li .description {
-  display: none;
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-top: 20px;
-  position: relative;
-  font-weight: normal;
-  z-index: 1;
-}
-.description::before {
-  content: '';
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
-  position: absolute;
-  top: -5px;
-  left: 43%;
+  /* height: 20px; */
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+/* li:hover {
 	cursor: pointer;
   color: #48A4D2;
-}
-li:hover .description {
-  display: block;
-}
+} */
