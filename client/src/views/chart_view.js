@@ -1,7 +1,7 @@
 const Highcharts = require('highcharts');
-
 // Load module after Highcharts is loaded
 require('highcharts/modules/exporting')(Highcharts);
+
 
 class Chart {
   constructor(view) {
@@ -9,6 +9,7 @@ class Chart {
   }
 
   bindEvents(){
+    // Subscribe to model to get data
     this.createChart();
   }
   // Create the chart
@@ -18,27 +19,24 @@ class Chart {
     const chartContainer = document.querySelector('#chart-container');
 
     const myChart = Highcharts.chart(chartContainer, {
-        chart: {
-            type: 'bar'
-        },
-        title: {
-            text: 'Fruit Consumption'
-        },
-        xAxis: {
-            categories: ['Apples', 'Bananas', 'Oranges']
-        },
-        yAxis: {
-            title: {
-                text: 'Fruit eaten'
-            }
-        },
-        series: [{
-            name: 'Jane',
-            data: [1, 0, 4]
-        }, {
-            name: 'John',
-            data: [5, 7, 3]
-        }]
+      chart: {
+        type: 'column'
+      },
+      xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      },
+      title: {
+          text: 'Gold Prices By Month'
+      },
+      plotOptions: {
+        series: {
+          allowPointSelect: true
+        }
+      },
+      series: [{
+        name: 'Prices',
+        data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+      }]
     });
 
   };
