@@ -22,6 +22,7 @@ class ItemListView{
     //We create an unordered list that we append each new row
     const fullList = document.createElement('div')
     fullList.id = 'full-list'
+
     items.forEach((item)=>{
 
       const itemHighlight = document.createElement('ul')
@@ -39,40 +40,25 @@ class ItemListView{
 
       itemHighlight.id = item._id;
 
-      // itemName.value = item._id;
-      // itemName.id = item._id
-      // console.log('Item id',item._id)
-      // console.log('Item row id',itemName.id)
 
-      itemHighlight.addEventListener('click',(evt)=>{
-        evt.stopPropagation();
-        // console.log(itemId);
-        console.log('click ID',evt.target);
-        console.log(evt.target.id);
-        // this.handleClick(evt)
-      });
+      itemHighlight.addEventListener('click', function(event) {
+        // console.log('This',this.id)
+        PubSub.publish('ItemListView:item-selected',this.id);
+      })
 
-      // fullList.appendChild(year);
-      // year.appendChild(itemName);
-      // year.appendChild(image);
-      // itemHighlight.appendChild(year);
 
       itemHighlight.appendChild(year);
       itemHighlight.appendChild(itemName);
       itemHighlight.appendChild(image);
+
+
+
       fullList.appendChild(itemHighlight);
     })
     //We add the list to the existing html element
     this.view.appendChild(fullList);
   }
 
-  handleClick(evt,id){
-    console.log(id);
-    //This function passes data back to the model, what item's details to display
-    // PubSub.publish('ItemListView:item-selected',evt.target.id);
-    // console.log(evt.target.innerText);
-    // console.log(evt.target.id);
-  }
 
 
 
