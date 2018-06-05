@@ -42,7 +42,7 @@ class TabManager{
 
   show(id){
     const item = document.querySelector(this.options[id]);
-    item.style.display = 'inline';
+    item.style.display = 'block';
   }
 
   isHidden(id){

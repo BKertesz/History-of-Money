@@ -26,15 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // We grab the Chartview div for chartView
     const chartViewDOM = document.querySelector('#chart-container');
 
-
-
-
-
-
-
-    const tabsView = new TabsView();
-    tabsView.bindEvents();
-
     //We initiliaze both of the views with the views passed into them
     const itemListView = new ItemListView(itemListDOM);
     const itemDetailView = new ItemDetailView(itemDetailDOM);

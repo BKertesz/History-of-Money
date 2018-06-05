@@ -4,52 +4,39 @@ const PubSub = require('../helpers/pub_sub.js')
 class TabsView{
   constructor(){
 
-    // const topViews = {
-    //   "list":"#item-list-view",
-    //   "timeline":"#item-timeline"
-    // }
-
     const bottomViews = {
       "detail":"#item-detail-view",
-      "chart":"#chart-container"
+      "chart":"#chart-container",
+      "map":'#item-map'
     }
 
-    // this.button1 = document.querySelector('#timeline-or-list')
-    this.button2 = document.querySelector('#detail-or-chart')
+    this.detailButton = document.querySelector('#detail-button')
+    this.mapButton = document.querySelector("#map-button")
+    this.chartButton = document.querySelector('#chart-button')
 
-    // this.topTabs = new TabManager(topViews);
     this.bottomTabs = new TabManager(bottomViews);
-
-  }
+}
 
   bindEvents(){
     // this.topTabs.toggle('list');
-    console.log('Bind events works')
+    // console.log('Bind events works')
     this.bottomTabs.toggle('detail');
     this.setupButtonListeners()
   }
 
   setupButtonListeners(){
-    // this.button1.addEventListener('click',(event)=>{
-    //   // console.log('List is ',this.topTabs.isHidden('list'));
-    //   // console.log('Timeline is',this.topTabs.isHidden('timeline'))
-    //   if(this.topTabs.isHidden('list')){
-    //     this.topTabs.toggle('list')
-    //   }
-    //   else{
-    //     this.topTabs.toggle('timeline')
-    //   }
-    // })
-
-    this.button2.addEventListener('click',(event)=>{
-      console.log('This button been pressed two...')
-      if(this.bottomTabs.isHidden('detail')){
-        this.bottomTabs.toggle('detail')
-      }
-      else{
-        this.bottomTabs.toggle('chart')
-      }
+    this.detailButton.addEventListener('click',()=>{
+      this.bottomTabs.toggle('detail')
     })
+
+    this.mapButton.addEventListener('click',()=>{
+      this.bottomTabs.toggle('map')
+    })
+
+    this.chartButton.addEventListener('click',()=>{
+      this.bottomTabs.toggle('chart')
+    })
+
   }
 
 
