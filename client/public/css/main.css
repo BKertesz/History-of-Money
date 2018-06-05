@@ -8,6 +8,12 @@ html, body {
   height: 200px;
 }
 
+
+/* --- Map --- */
+/* #item-map {
+  height: 1000 px;
+} */
+
 /* ---- Timeline ---- */
 ol {
 	position: relative;

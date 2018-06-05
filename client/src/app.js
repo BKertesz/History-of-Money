@@ -2,16 +2,23 @@ const ItemListView = require('./views/item_list_view.js');
 const Items = require('./models/items.js');
 const ItemDetailView = require('./views/item_detail_view.js');
 const TabsView = require('./views/tabs_view.js');
+const MapView = require('./views/map_view.js');
 
 
 document.addEventListener('DOMContentLoaded', () => {
+
+    // const mapView = new MapView();
     //Here we first grab hold of the div on the bottom of the page where
     //we will render datas later on
+    const mapContainer = document.querySelector('#item-map');
     const itemDetailDOM = document.querySelector('#item-detail-view');
     const itemTimelineDOM = document.querySelector('#item-timeline');
     //We grab hold of the listview which later will be the timeline
     const itemListDOM = document.querySelector('#item-list-view');
     const itemChartDOM = document.querySelector('#item-chart');
+
+    const mapView = new MapView(mapContainer);
+    mapView.initiliaze();
 
     const tabsView = new TabsView();
     tabsView.bindEvents();
