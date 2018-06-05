@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mapContainer = document.querySelector('#item-map');
 
     const mapView = new MapView(mapContainer);
-    mapView.initiliaze();
+    mapView.bindEvents();
 
     // We grab the Chartview div for chartView
     const chartViewDOM = document.querySelector('#chart-container');

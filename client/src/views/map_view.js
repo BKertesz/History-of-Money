@@ -1,22 +1,38 @@
+const PubSub = require('../helpers/pub_sub.js');
+
 class MapView{
-  constructor(container, coordinates){
+  constructor(container){
     this.container = container;
-    this.coordinates = coordinates;
+    this.coordinates = null;
     this.map = null;
   }
 
+  bindEvents(){
+    this.setupDataListener();
+  }
 
-  initiliaze () {
+  setupDataListener(){
+    PubSub.subscribe('Items:item-data-loaded',(evt)=>{this.initiliaze(evt.detail)});
+  }
+
+  initiliaze (item) {
+    console.log(item.coordinates)
+    if(this.map != null){
+      this.map.remove();
+    }
+
     // console.log('map init');
     const openStreetMapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     const openStreetMapTileLayer = new L.TileLayer(openStreetMapUrl);
 
     this.map = L.map(this.container)
       .addLayer(openStreetMapTileLayer)
-      .setView([51.505, -0.09], 13);
+      .setView(item.coordinates, 13);
+
+      this.addMarker(item.coordinates);
   }
 
-  addMarker() {
+  addMarker(coordinates) {
     L.marker(coordinates).addTo(this.map);
   }
 
