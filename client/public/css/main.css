@@ -10,9 +10,9 @@ html, body {
 
 
 /* --- Map --- */
-/* #item-map {
-  height: 1000 px;
-} */
+#item-map {
+  height: 500px;
+}
 
 /* ---- Timeline ---- */
 ol {
