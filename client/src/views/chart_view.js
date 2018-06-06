@@ -3,11 +3,13 @@ const Highcharts = require('highcharts');
 // Load module after Highcharts is loaded
 require('highcharts/modules/exporting')(Highcharts);
 
+//This class is responsible for the chart display
 class Chart {
   constructor(view) {
     this.view = view;
   }
 
+  
   bindEvents(){
     this.setupChartListener();
   }
