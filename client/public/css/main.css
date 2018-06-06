@@ -17,7 +17,12 @@ html, body {
 
 /* --- Map --- */
 #item-map {
+
+}
+
+#item-map-container{
   height: 200px;
+  border: black solid 2px;
 }
 
 
