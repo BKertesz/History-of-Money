@@ -20,7 +20,20 @@ class Chart {
   // Create the chart by accessing the X and Y axis data from the Chart_data model.
   createChart(data) {
     const chartContainer = document.querySelector('#chart-container');
-    const myChart = Highcharts.chart(chartContainer, {
+
+    const title = document.createElement('h1');
+    title.textContent = 'Price of Gold'
+    const description = document.createElement('p')
+    description.textContent = 'This is a long long description'
+
+    chartContainer.appendChild(title);
+    chartContainer.appendChild(description);
+
+    const  displayContainer = document.createElement('div');
+    chartContainer.appendChild(displayContainer)
+
+
+    const myChart = Highcharts.chart(displayContainer, {
       chart: {
         type: 'column'
       },
@@ -40,6 +53,8 @@ class Chart {
         data: data.yAxis
       }]
     });
+
+
   };
 }
 
