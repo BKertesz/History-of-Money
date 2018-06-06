@@ -9,17 +9,16 @@ const Chart = require('./views/chart_view.js');
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // const mapView = new MapView();
     //Here we first grab hold of the div on the bottom of the page where
     //we will render datas later on
-
     const itemDetailDOM = document.querySelector('#item-detail-view');
-    //We grab hold of the listview which later will be the timeline
+    //We grab hold of the timeline view(previously know as listview)
     const itemListDOM = document.querySelector('#item-list-view');
+    //We grab the container for the chart to render in
     const itemChartDOM = document.querySelector('#item-chart');
     //We grab hold of the map div
     const mapContainer = document.querySelector('#item-map');
-
+    //The new mapview is created and have its functions triggered
     const mapView = new MapView(mapContainer);
     mapView.bindEvents();
 

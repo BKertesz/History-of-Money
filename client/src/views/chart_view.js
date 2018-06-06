@@ -3,11 +3,13 @@ const Highcharts = require('highcharts');
 // Load module after Highcharts is loaded
 require('highcharts/modules/exporting')(Highcharts);
 
+//This class is responsible for the chart display
 class Chart {
   constructor(view) {
     this.view = view;
   }
 
+  
   bindEvents(){
     this.setupChartListener();
   }
@@ -21,10 +23,10 @@ class Chart {
   createChart(data) {
     const chartContainer = document.querySelector('#chart-container');
 
-    const title = document.createElement('h1');
-    title.textContent = 'Price of Gold'
+    const title = document.createElement('h2');
+    title.textContent = 'Why Look at Historical Gold Prices?'
     const description = document.createElement('p')
-    description.textContent = 'This is a long long description'
+    description.textContent = 'Looking at historical gold prices may potentially provide information that may assist in buying or selling decisions. Looking at the big picture, gold trended higher for many years before making all-time highs in 2011 of nearly £1180 per ounce. Gold has since been moving lower, but could have possibly found a bottom in 2016. Although it remains to be seen, gold’s declines from the 2011 highs could simply prove to be a pullback within an even longer-term uptrend.'
 
     chartContainer.appendChild(title);
     chartContainer.appendChild(description);
@@ -32,7 +34,7 @@ class Chart {
     const  displayContainer = document.createElement('div');
     chartContainer.appendChild(displayContainer)
 
-
+    //This part generates the actual chart and pulls in the data from the api
     const myChart = Highcharts.chart(displayContainer, {
       chart: {
         type: 'column'
@@ -41,7 +43,7 @@ class Chart {
         categories: data.xAxis
       },
       title: {
-        text: 'Gold Prices By Daily Price Movements'
+        text: 'Daily Gold Price in £(GBP)'
       },
       plotOptions: {
         series: {
@@ -49,7 +51,7 @@ class Chart {
         }
       },
       series: [{
-        name: 'Prices',
+        name: 'Prices £',
         data: data.yAxis
       }]
     });

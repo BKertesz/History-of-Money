@@ -10,15 +10,16 @@ class ItemDetailView {
     this.setupDataListener();
   }
 
+  //Looks out for when the data is ready to be displayed
   setupDataListener(){
     PubSub.subscribe('Items:item-data-loaded', (evt) => {
-      // console.log("This is happening")
       this.render(evt.detail);
     })
   }
 
+  //Renders all the details of the object that it pulls from the database
   render(item){
-
+    //Emptys the html soo it doesn't just append to it
     this.view.innerHTML= ''
 
     const detailInfoDiv = document.createElement('div');
