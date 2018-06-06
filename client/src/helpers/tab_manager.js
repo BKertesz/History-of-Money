@@ -1,17 +1,18 @@
+//This helper can hide and show different div elements dynamicaly
 class TabManager{
-
+  //To begin with it needs to have an object passed in with key value pairs
   constructor(options){
     this.options = options;
-    // this.printPropertys();
     this.hideAll();
   }
-
+  //This is a test function for printing out all the keys and values
   printPropertys(){
     for(const item in this.options){
       console.log(item,this.options[item]);
     }
   }
-
+  //This is the main function that could hide and show divs
+  //Also makes sure one is shown and the others are hiden
   toggle(id){
     if(this.options[id]){
       // console.log('This id exist:',id)

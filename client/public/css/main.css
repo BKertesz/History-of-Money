@@ -1,73 +1,83 @@
-html, body {
-  color: #681;
-	background: #fff;
-	min-width: 700px;
+body{
+  background-color: #85BB65;
+  color: #3E3E3C;
+  font-family: Helvetica;
 }
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+/* ---- containers ---- */
+
+#detail-info-div{
+  width: 500px;
+  padding-left: 50px;
+}
+
+#image-info-div{
+width: 300px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+#description-info-div{
+width: 1000px;
+padding-right: 50px;
+padding-left: 50px;
+font-size: 20px;
+}
+
 #detail-image{
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+#item-detail-view{
+  display: flex;
+  flex-direction: row;
 }
 
 #timeline-image{
   width: 70px;
   height: 70px;
   border-radius: 200px;
-  border: black solid 1px;
+  border: #3E3E3C solid 3px;
 }
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 /* --- Map --- */
-#item-map {
-
-}
 
 #item-map-container{
-  height: 200px;
+  height: 400px;
   border: black solid 2px;
 }
-
 
 p {
   height: 35px;
 }
 
-/* ---- Timeline ---- */
-ol {
-	position: relative;
-	display: block;
-	margin: 100px;
-	height: 4px;
-  width: 4000px;
-	background: #31708F;
-}
-ol::before,
-ol::after {
-	content: "";
-	position: absolute;
-	top: -8px;
-	display: block;
-	width: 0;
-	height: 0;
-  border-radius: 10px;
-	border: 10px solid #31708F;
-}
-ol::before {
-	left: -5px;
-}
-ol::after {
-	right: -10px;
-	border: 10px solid transparent;
-	border-right: 0;
-	border-left: 20px solid #31708F;
-  border-radius: 3px;
-}
-
-.all_info{
-  overflow: scroll;
-  height: 300px;
+ul{
+  text-align: center;
+  width: 150px;
+  font-size: 20px;
 }
 
 #full-list {
   display: flex;
+}
+
+#item-list-view{
+  height: 200px;
 }
 
 .tl-div {
@@ -76,15 +86,29 @@ ol::after {
   height: 350px;
 }
 
-#item-highlight{
-  width: 100px;
+.all_info{
+  overflow: scroll;
+  height: 300px;
 }
 
-/* #item-detail-view{
-  border: black 1px solid;
-  height: 100px;
-  width: 100px;
-} */
+/* ---- Buttons ---- */
+button{
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #E8E9C9;
+  color: #3E3E3C;
+  margin: 50px 25px 50px 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 /* ---- Timeline elements ---- */
 li {
@@ -92,13 +116,47 @@ li {
   list-style: none;
   align-content:space-between;
 	position: relative;
-	/* float: left; */
 	width: 150px;
-	font: bold 14px arial;
-  /* height: 20px; */
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+ul:hover {
 	cursor: pointer;
-  color: #48A4D2;}
+  color: #E8E9C9;
+}
+
+button:hover {
+	cursor: pointer;
+  background-color: #22D857;
+}
+
+
+/* ---- Timeline ---- */
+ol {
+	position: relative;
+	margin: 50px;
+	height: 4px;
+  width: 3500px;
+	background: #3E3E3C;
+}
+
+ol::before,
+ol::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	width: 0;
+	height: 0;
+  border-radius: 10px;
+	border: 10px solid #3E3E3C;
+}
+ol::before {
+	left: -5px;
+}
+ol::after {
+	right: -10px;
+	border: 10px solid transparent;
+	border-right: 0;
+	border-left: 20px solid #3E3E3C;
+  border-radius: 3px;
+}
