@@ -45,11 +45,12 @@ class Chart {
       },
       plotOptions: {
         series: {
-          allowPointSelect: true
+          allowPointSelect: true,
+          color: '#FFD700'
         }
       },
       series: [{
-        name: 'Prices £',
+        name: 'Prices',
         data: data.yAxis
       }]
     });
