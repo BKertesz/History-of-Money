@@ -14,7 +14,7 @@ db.items.insertMany(
     "name":"Cowry Shells",
     "time":"1300 BC",
     "region":"Asia, Oceania, Africa and some parts of Europe",
-    "coordinates":[44.3, 1.8],
+    "coordinates":[-6.1, 39.3],
     "description":"Starting over three thousand years ago, cowry shells, or copies of the shells, were used as Chinese currency. The Classical Chinese character for “money/currency”, 貝, originated as a pictograph of a cowrie shell. Shell money usually consisted of whole or part sea shells, which were worked into beads or shaped. Cowry Shells were accepted as legal tender in some parts of Africa until the 20th Century.",
     "image_url":"https://climbcarstensz.files.wordpress.com/2013/08/96161.jpg"
   },
@@ -30,7 +30,7 @@ db.items.insertMany(
     "name":"Ancient Chinese Coins",
     "time":"476 BC",
     "region":"China",
-    "coordinates":[39.9, 116.4],
+    "coordinates":[36.05, 114.22],
     "description":"First coins were used during ceremonial exchanges, and were shaped like cowrie shells. Metal coins introduced later weren't round, but were shaped like spades and knives. They were originally cast into molds, rather than being hammered or cut like European coins.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Square_Shoulder_Spade.jpg/440px-Square_Shoulder_Spade.jpg"
   },
@@ -54,7 +54,7 @@ db.items.insertMany(
     "name":"Tea Bricks",
     "time":"800",
     "region":"China, Mongolia, Siberia, Tibet, Turkmenistan and Russia",
-    "coordinates":[40.5, 115.4],
+    "coordinates":[46.8, 103.8],
     "description":"In Siberia, Mongolia, Tibet and Chinese-Asian marts, cakes of compressed tea resembling mud-bricks were used as money. This “money” manufactured in Southern China, was made of leaves and stalks of the tea plant, herbs and ox blood. It was then bound together with yak dung. Tea was compressed into bricks of various sizes and stamped with a value which varied depending on quality of the tea. The value increased as the bricks travelled farther from the tea producing country.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/300px-Zhuan_cha.jpg"
   },
@@ -86,7 +86,7 @@ db.items.insertMany(
     "name":"Maria Theresa Thaler",
     "time":"1780",
     "region":"Austria",
-    "coordinates":[48.2, 16.3],
+    "coordinates":[48.4, 10.2],
     "description":"The Thaler was minted in Günzburg, now Bavaria. It was one of the most long lasting silver trade coins, of any monetary history. The design and fineness added to its great popularity, Maria Theresa was quite famous at the time which helped too.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/2/2c/MTThaler.png"
   },
@@ -94,7 +94,7 @@ db.items.insertMany(
     "name":"Highest Value Note - $10,000",
     "time":"1928",
     "region":"USA",
-    "coordinates":[37.0, -95.7],
+    "coordinates":[38.9, -77],
     "description":"The $10,000 note was produced in 1928 and was only briefly in circulation, it was mainly used for large transfers between banks. It is estimated that only around 350 of the notes are still in circulation, but since they are so rare they can be worth ten times their value.",
     "image_url":"http://www.antiquemoney.com/wp-content/uploads/2013/08/Fake-Chase-10000.jpg"
   },
@@ -110,7 +110,7 @@ db.items.insertMany(
     "name":"Polymer Notes",
     "time":"1998",
     "region":"Australia",
-    "coordinates":[-25.2, 133],
+    "coordinates":[-35.2, 149],
     "description":"Polymer notes last 2.5 times longer than paper notes, and are more difficult to counterfeit. More than 25 countries, such as Canada and the UK currently use polymer notes and Australia were the first to use them in 1988. Polymer notes cost twice as much to produce as paper notes.",
     "image_url":"https://www.therightnote.com.au/wp-content/uploads/2014/10/POLYMER-NOTES.jpg"
   },
@@ -118,7 +118,7 @@ db.items.insertMany(
     "name":"Euro Coins",
     "time":"1999",
     "region":"Europe",
-    "coordinates":[50.1, 8.4],
+    "coordinates":[50.8, 4.3],
     "description":"Euro Coins have a common reverse, portraying a map of Europe, but each country in the eurozone has its own design on the other side. This means that each coin has a variety of different designs in circulation at once.",
     "image_url":"https://www.fleur-de-coin.com/images/eurocoins/Eurocoins.jpg"
   },
@@ -142,7 +142,7 @@ db.items.insertMany(
     "name":" European Debt Crisis",
     "time":"2018",
     "region":"Europe",
-    "coordinates":[50.1, 8.4],
+    "coordinates":[50.11, 8.6],
     "description":"The European debt crisis has been taking place in the EU since the end of 2009. Several countries (Greece, Portugal, Ireland, Spain and Cyprus) were unable to repay their government debt without the assistance of third parties like other Eurozone countries, the European Central Bank (ECB), or the International Monetary Fund (IMF). The crisis has had negative effects on the economy and labour market, with unemployment rates in Greece and Spain reaching 27%, and was blamed for poor economic growth, impacting all of the entire European Union",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Long-term_interest_rates_%28eurozone%29.png"
   },
