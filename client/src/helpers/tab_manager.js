@@ -42,7 +42,13 @@ class TabManager{
 
   show(id){
     const item = document.querySelector(this.options[id]);
-    item.style.display = 'inherit';
+    if(id == 'detail'){
+      item.style.display = 'flex'
+    }
+    else{
+      item.style.display = 'block';
+    }
+
   }
 
   isHidden(id){

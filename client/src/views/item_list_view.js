@@ -12,14 +12,11 @@ class ItemListView{
   }
 
   setupDataListener(){
-    //Listening till the model publishes all data then populate the story
     PubSub.subscribe('Items:all-data-ready',(evt)=>{
       this.populate(evt.detail)})
   }
 
   populate(items){
-    //This function creates the invidual lines that are displayed in the list
-    //We create an unordered list that we append each new row
     const fullList = document.createElement('div')
     fullList.id = 'full-list'
 
@@ -42,7 +39,6 @@ class ItemListView{
 
 
       itemHighlight.addEventListener('click', function(event) {
-        // console.log('This',this.id)
         PubSub.publish('ItemListView:item-selected',this.id);
       })
 

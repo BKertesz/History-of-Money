@@ -18,8 +18,6 @@ class TabsView{
 }
 
   bindEvents(){
-    // this.topTabs.toggle('list');
-    // console.log('Bind events works')
     this.bottomTabs.toggle('map');
     this.setupButtonListeners()
   }

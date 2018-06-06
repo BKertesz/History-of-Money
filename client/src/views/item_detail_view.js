@@ -12,7 +12,6 @@ class ItemDetailView {
 
   setupDataListener(){
     PubSub.subscribe('Items:item-data-loaded', (evt) => {
-      // console.log("This is happening")
       this.render(evt.detail);
     })
   }

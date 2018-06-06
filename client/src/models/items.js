@@ -30,7 +30,6 @@ class Items {
   getItemData(itemId){
     const request = new Request(`http://localhost:3000/api/items/${itemId}`);
     request.get().then((item)=>{
-      // console.log("Item",item);
       PubSub.publish('Items:item-data-loaded',item);
     })
   }

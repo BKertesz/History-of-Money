@@ -5,7 +5,6 @@ class MapView{
     this.container = container;
     this.coordinates = null;
     this.map = null;
-    this.item = null;
   }
 
   bindEvents(){
@@ -17,9 +16,7 @@ class MapView{
   }
 
   initiliaze (item) {
-    this.item = item;
     this.container.innerHTML = ''
-    // console.log(item.coordinates)
     if(this.map != null){
       this.map.remove();
     }
@@ -36,10 +33,9 @@ class MapView{
     this.container.appendChild(breakLine);
 
     const displayContainer = document.createElement('div');
-
     displayContainer.id = 'item-map-container'
     this.container.appendChild(displayContainer);
-    // console.log('map init');
+
     const openStreetMapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     const openStreetMapTileLayer = new L.TileLayer(openStreetMapUrl);
 
@@ -47,12 +43,7 @@ class MapView{
       .addLayer(openStreetMapTileLayer)
       .setView(item.coordinates, 3)
 
-      // this.map.setView(item.coordinates,3)
-
       this.addMarker(item.coordinates);
-      // this.addMarker(item.coordinates);
-
-      // console.log(this.map);
   }
 
   addMarker(coordinates) {
