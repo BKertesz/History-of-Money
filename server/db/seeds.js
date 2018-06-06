@@ -13,7 +13,7 @@ db.items.insertMany(
   {
     "name":"Cowry Shells",
     "time":"1300 BC",
-    "region":"Asia, Oceana, Africa and some parts of Europe",
+    "region":"Asia, Oceania, Africa and some parts of Europe",
     "coordinates":[44.3, 1.8],
     "description":"Starting over three thousand years ago, cowry shells, or copies of the shells, were used as Chinese currency. The Classical Chinese character for “money/currency”, 貝, originated as a pictograph of a cowrie shell. Shell money usually consisted of whole or part sea shells, which were worked into beads or shaped. Cowry Shells were accepted as legal tender in some parts of Africa until the 20th Century.",
     "image_url":"https://climbcarstensz.files.wordpress.com/2013/08/96161.jpg"
@@ -30,7 +30,7 @@ db.items.insertMany(
     "name":"Ancient Chinese Coins",
     "time":"476 BC",
     "region":"China",
-    "coordinates":[40.5, 115.4],
+    "coordinates":[39.9, 116.4],
     "description":"First coins were used during ceremonial exchanges, and were shaped like cowrie shells. Metal coins introduced later weren't round, but were shaped like spades and knives. They were originally cast into molds, rather than being hammered or cut like European coins.",
     "image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Square_Shoulder_Spade.jpg/440px-Square_Shoulder_Spade.jpg"
   },
@@ -38,7 +38,7 @@ db.items.insertMany(
     "name":"Silk Cloth",
     "time":"460 BC",
     "region":"China, Africa, Parts of Europe",
-    "coordinates":[40.5, 115.4],
+    "coordinates":[31.2, 121.4],
     "description":"From the Far East to Europe and Africa, cloth has been used as medium of exchange and a unit of measurement. During the second millennium, silk cloth passed as money in China, circulating in pieces of a uniform size. The Chinese word pu began as a word referring to “cloth,” but came to denote “money,” reflecting the importance of silk cloth as money. Silk money survived the advent of metallic coinage in China. In 460 b.c. the government had three boards for management of  gems, gold, and for coins & silk.",
     "image_url":"http://3.imimg.com/data3/HJ/MH/GLADMIN-37790/silk-cloth-500x500.jpg"
   },
@@ -46,7 +46,7 @@ db.items.insertMany(
     "name":"The First Banknote",
     "time":"618",
     "region":"China",
-    "coordinates":[40.5, 115.4],
+    "coordinates":[34.3, 108.9],
     "description":"The first banknote is likely to have been developed during the Tang Dynasty, around 618-907, in China. Paper notes were introduced when wealthy merchants struggled to carry all of their copper coins around. Coins were exchanged for receipts, which was the earliest version of a promissory note.",
     "image_url":"https://i.pinimg.com/originals/bb/25/a1/bb25a12055990848b0d64c0a844ea64c.jpg"
   },
@@ -102,7 +102,7 @@ db.items.insertMany(
     "name":"Wall Street Crash of 1929",
     "time":"1929",
     "region":"USA",
-    "coordinates":[37.0, -95.7],
+    "coordinates":[40.7, -74.7],
     "description":"The Wall Street Crash of October 1929 was the most devastating stock market crash in the history of the United States, the crash signalled the beginning of a 12-year Great Depression that affected all Western industrialized countries. The crash followed a speculative boom that had taken hold in the late 1920s",
     "image_url":"https://cdn.britannica.com/700x450/56/71256-004-0692912A.jpg"
   },
@@ -126,7 +126,7 @@ db.items.insertMany(
     "name":"Global Financial Crisis",
     "time":"2008",
     "region":"Global",
-    "coordinates":[44.3, 1.8],
+    "coordinates":[51.5, 0.12],
     "description":"The global financial crisis of 2008 is considered to be the worst financial crisis since the Great Depression, it was started by a mortgage crisis in the United States which caused an international banking crisis. Massive bail-outs of financial institutions and other policies were rolled out to try to prevent a possible collapse of the world financial system. The crisis has been followed by a global economic downturn, the Great Recession. ",
     "image_url":"http://blogs.reuters.com/anatole-kaletsky/files/2014/08/ant-nyse-traders.jpg"
   },
@@ -134,7 +134,7 @@ db.items.insertMany(
     "name":"Digital Currency",
     "time":"2009",
     "region":"Global",
-    "coordinates":[44.3, 1.8],
+    "coordinates":[35.6, 139.6],
     "description":"The latest development in money uses cryptography to seek to ensure trust in a theoretically tamper-proof system called a blockchain. These systems have been around since the 1980s, however the first successful and most famous cryptocurrency, bitcoin, was proposed in 2008 by an unknown person under the name of Satoshi Nakamoto. Since bitcoin's inception, thousands of other cryptocurrencies have been introduced.",
     "image_url":"https://248qms3nhmvl15d4ne1i4pxl-wpengine.netdna-ssl.com/wp-content/uploads/2013/12/bitcoin-400x400.jpg"
   },
@@ -150,7 +150,7 @@ db.items.insertMany(
     "name":"Vertical Note",
     "time":"2018",
     "region":"Northern Ireland",
-    "coordinates":[54.7, 6.4],
+    "coordinates":[54.7, -6.4],
     "description":"Notes are almost always printed on a horizontal view, however, later this year Northern Ireland will become just one of seven countries who will print their notes vertically. China previously printed notes vertically, due to the direction of Chinese writing. Studies have shown that people tend to hold notes vertically when carrying out transactions.",
     "image_url":"https://e3.365dm.com/18/05/1096x616/skynews-ulster-bank-notes-vertical-ireland_4318993.jpg?20180524133334"
   }

@@ -27,7 +27,7 @@ class MapView{
 
     this.map = L.map(this.container)
       .addLayer(openStreetMapTileLayer)
-      .setView(item.coordinates, 13);
+      .setView(item.coordinates, 3);
 
       this.addMarker(item.coordinates);
   }
