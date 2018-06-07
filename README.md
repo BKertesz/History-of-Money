@@ -18,3 +18,8 @@ The BBC are looking to improve their online offering of financial education cont
 
 - https://www.highcharts.com/ HighCharts is an open-source library for rendering responsive charts.
 - https://leafletjs.com/ Leaflet is an open-source library for rendering maps and map functionality.
+
+## Installing instructions
+- Clone the repo from github
+- Run npm install
+-
