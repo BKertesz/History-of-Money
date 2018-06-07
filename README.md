@@ -21,5 +21,7 @@ The BBC are looking to improve their online offering of financial education cont
 
 ## Installing instructions
 - Clone the repo from github
-- Run npm install
--
+- Run npm install to get all necessary library
+- Run mongod
+- In a new tab run npm run server:dev
+- And again in a new tab npm run build
