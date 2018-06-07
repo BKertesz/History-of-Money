@@ -9,7 +9,7 @@ class Chart {
     this.view = view;
   }
 
-  
+
   bindEvents(){
     this.setupChartListener();
   }
@@ -37,7 +37,8 @@ class Chart {
     //This part generates the actual chart and pulls in the data from the api
     const myChart = Highcharts.chart(displayContainer, {
       chart: {
-        type: 'column'
+        type: 'column',
+        backgroundColor:`rgba(255, 255, 255, 0.0)`
       },
       xAxis: {
         categories: data.xAxis
