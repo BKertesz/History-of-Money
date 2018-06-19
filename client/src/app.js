@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //To create the chart view
     const chartView = new Chart(chartViewDOM);
     //This is the url for our localy created api MongoDB
-    const url = 'http://localhost:3000/api/items'
+    const url = 'https://historyofmoney.herokuapp.com/api/items'
     const items = new Items(url);
       //This is the url for the Chart data API
     const chartApiUrl = 'https://www.quandl.com/api/v1/datasets/WGC/GOLD_DAILY_GBP.json?api_key=eErY9cenLvxoqXMFyZwm'
