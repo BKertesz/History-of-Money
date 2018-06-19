@@ -8,7 +8,7 @@
     "test": "mocha client/src/models/specs",
     "server:dev": "nodemon server/server.js",
     "build": "webpack -w",
-    "postinstall": "webpack -w"
+    "postinstall": "webpack"
   },
   "author": "",
   "license": "ISC",
