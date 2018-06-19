@@ -10,6 +10,6 @@ app.use(express.static(publicPath));
 app.use(parser.json());
 app.use(indexRouter);
 
-app.listen(process.env.PORT, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log(`Listening on port ${ this.address().port }`);
 });
