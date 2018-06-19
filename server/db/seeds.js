@@ -1,4 +1,4 @@
-use numismatics;
+use heroku_cr2tj6df;
 db.dropDatabase();
 
 db.items.insertMany(

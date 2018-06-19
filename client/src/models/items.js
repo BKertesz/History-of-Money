@@ -28,7 +28,7 @@ class Items {
 
   //Loads back one item for the details view to display
   getItemData(itemId){
-    const request = new Request(`http://localhost:3000/api/items/${itemId}`);
+    const request = new Request(`http://historyofmoney.herokuapp.com/api/items/${itemId}`);
     request.get().then((item)=>{
       PubSub.publish('Items:item-data-loaded',item);
     })
